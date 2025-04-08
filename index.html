@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="cuerpo">
-  <header id="cabecera"><h1>este espacio es para la cabecera</h1></header>  
+  <header id="cabecera"><img class="logo" src="imagenes/blockchain1.png"><h1>programacion</h1></header>  
   <nav id="menu">
     <a href="#" class="nav-enlace">Inicio</a>
     <a href="#productos" class="nav-enlace">Productos</a>
@@ -16,11 +16,36 @@
     <a href="#" class="nav-enlace">Promociones</a>
   </nav> <!--este es el menu principal-->
   <section id="seccion">
-      <article class="articulo"><h2>manejo de las herramientas</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></article>
+      <article class="articulo"><h2>manejo de las herramientas</h2><p class="parrafo1">Lorem ipsum dolor sit,<span class="sub"> amet consectetur </span>adipisicing elit.</p></article>
       <article class="articulo"><h2>manejo de datos</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></article>
-      <article class="articulo"><h2>menejo de programacionp</h2><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></article>
+      <article class="articulo"><h2>manejo de programacion</h2><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></article>
   </section>
-  <aside id="lateral"><h3>este es el espacio para la barra lateal</h3></aside>
+  <aside id="lateral">
+    <form name="formulario">
+      <h2>Formulario web</h2>
+      <table border="0">
+        <tr>
+          <td>Nombre:</td>
+          <td><input type="text" name="txtNombre" required></td>
+        </tr>
+        <tr>
+          <td>Correo:</td>
+          <td><input type="email" name="miEmail" placeholder="Ingrese Email"/></td>
+        </tr>
+        <tr>
+          <td>Estrato:</td>
+          <td><input type="number" name="numEst" min="1" max="6" step="1"/></td>
+        </tr>
+        <tr>
+          <td>Fecha:</td>
+          <td><input type="date" name="fecha" required></td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="btnEnviar" value="Enviar"/></td>
+        </tr>
+      </table>
+    </form>
+  </aside>
   <footer id="pie"><h5>este es el espacio para el pie de pagina</h5></footer>
 </body>
 </html>
